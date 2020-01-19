@@ -14,13 +14,16 @@
                 "data": {
                     "2fa": "2FA PIN"
                 },
+                "description": "Leer",
                 "title": "2-Faktor-Authentifizierung"
             },
             "user": {
                 "data": {
+                    "authorization_code": "Autorisierungscode (f\u00fcr die manuelle Authentifizierung erforderlich)",
                     "email": "E-Mail-Adresse",
                     "password": "Passwort"
                 },
+                "description": "Leer",
                 "title": "Google Hangouts Login"
             }
         },

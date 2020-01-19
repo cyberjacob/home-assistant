@@ -2,7 +2,6 @@
 from datetime import datetime
 import json
 import logging
-
 from typing import Any
 
 _LOGGER = logging.getLogger(__name__)
@@ -21,7 +20,7 @@ class JSONEncoder(json.JSONEncoder):
             return o.isoformat()
         if isinstance(o, set):
             return list(o)
-        if hasattr(o, 'as_dict'):
+        if hasattr(o, "as_dict"):
             return o.as_dict()
 
         return json.JSONEncoder.default(self, o)

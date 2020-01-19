@@ -2,7 +2,6 @@
     "config": {
         "abort": {
             "already_configured": "Tilgangspunktet er allerede konfigurert",
-            "conection_aborted": "Kunne ikke koble til HMIP serveren",
             "connection_aborted": "Kunne ikke koble til HMIP serveren",
             "unknown": "Ukjent feil oppstod."
         },
@@ -15,7 +14,7 @@
         "step": {
             "init": {
                 "data": {
-                    "hapid": "Tilgangspunkt ID (SGTIN)",
+                    "hapid": "Tilgangspunkt-ID (SGTIN)",
                     "name": "Navn (valgfritt, brukes som prefiks for alle enheter)",
                     "pin": "PIN kode (valgfritt)"
                 },
@@ -26,6 +25,6 @@
                 "title": "Link tilgangspunkt"
             }
         },
-        "title": "HomematicIP Sky"
+        "title": "HomematicIP Cloud"
     }
 }

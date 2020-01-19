@@ -13,16 +13,15 @@
             "user": {
                 "data": {
                     "email": "E-Mail Address",
-                    "password": "Password"
+                    "password": "Password",
+                    "authorization_code":  "Authorization Code (required for manual authentication)"
                 },
-                "description": "",
                 "title": "Google Hangouts Login"
             },
             "2fa": {
                 "data": {
                   "2fa": "2FA Pin"
                 },
-                "description": "",
                 "title": "2-Factor-Authentication"
             }
         },
